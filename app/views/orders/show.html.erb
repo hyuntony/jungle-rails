@@ -1,8 +1,14 @@
 <section class="orders-show">
-
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
   </header>
+
+  <% @order.line_items.each do |item| %>
+    <%= render 'line_item', line_item: item %>
+  <% end %>
+
+  <div>Total: <%= humanized_money_with_symbol @order.total_cents / 100 %></div>
+  <div><%= @order.email %></div>
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
