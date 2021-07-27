@@ -5,6 +5,8 @@ class UsersController < ApplicationController
 
   def create
     user = User.new(user_params)
+    puts "**************"
+    puts user.inspect
     if user.save
       session[:user_id] = user.id
       redirect_to '/'
@@ -17,7 +19,8 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(
-      :name,
+      :first_name,
+      :last_name,
       :email,
       :password,
       :password_confirmation
