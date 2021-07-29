@@ -42,10 +42,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Screenshots
 
 Main Page
-[Jungle Main Page](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Main%20Page.png?raw=true)
+!["Jungle Main Page"](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Main%20Page.png?raw=true)
 
 Admin Page
-[Jungle Admin Page](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Admin%20Page.png?raw=true)
+!["Jungle Admin Page"](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Admin%20Page.png?raw=true)
 
 Cart Checkout Page
-[Jungle Cart Checkout](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Cart%20Checkout.png?raw=true)
+!["Jungle Cart Checkout"](https://github.com/hyuntony/jungle-rails/blob/master/docs/Jungle%20Cart%20Checkout.png?raw=true)
