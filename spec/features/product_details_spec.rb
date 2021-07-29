@@ -25,7 +25,7 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     page.first('.btn.btn-default.pull-right').click
     
     expect(page).to have_css 'article.product-detail', count: 1
-
+    
     # DEBUG / VERIFY
     # save_screenshot
   end
